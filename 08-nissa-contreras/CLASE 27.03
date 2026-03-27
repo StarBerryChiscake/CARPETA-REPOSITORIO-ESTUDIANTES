@@ -1,3 +1,38 @@
 #  p5.js  
 
 ## Algoritmos 
+
+* Secuencia de algo para resolver un problema.  
+* Debe ser:  
+    * Preciso: sin ambiguedades.
+    * Ordenado: sigue uns secuencia lógica.  
+    * Finito: tiene un inicio y final.  
+    * Definido: mismos resultados con mismos datos.  
+
+___
+
+## Estructura de un algoritmo
+
+* Input (Entrada): datos o materiales iniciales.
+* Proceso: pasos que transforman la entrada.
+* Output (Salida): resultado final.
+
+Idea clave: Entrada, Proceso, Salida.
+
+___
+
+## Ejemplo sándwich  
+
+* Input: ingredientes y utensilios.
+* Proceso: pasos para armar el sándwich.
+* Output: sándwich listo.
+
+Sirve para entender cómo funciona un algoritmo en la vida real.  
+
+___
+
+## Diagrama de flujo
+
+* Representación gráfica de un algoritmo.  
+* Muestra decisiones y pasos de forma visual.  
+*
