@@ -1,49 +1,68 @@
 # P5.js
 
-Algoritmo: secuencia de instrucciones, paso a paso, logicas, finitas, definidas,ordenadas y precisión.
+Algoritmo: secuencia de instrucciones, paso a paso, logicas, finitas, definidas,ordenadas, lógica finitud y precisión,que permiten solucionar un problema, 
+o tareas especificas.
+  
 
 ## estructura
 
-siempre debe haber un imput: información o ingredientes o urencilios para hacer un prudcto.
-proceso: lista de instrucciones para desdarrolar el proyecto, conjunto con los ingredientes. 
-y output:
+siempre debe haber un **imput** (entrada): información ,ingredientes o utencilios necesarios para empezar a hacer un producto.
+**proceso**: lista de instrucciones o pasos lógicos para desdarrolar el proyecto, que transforman la entreda, conjunto con los ingredientes(algoritmo). 
+**output** (salida): el resultado final o la solución al problema. 
+  
 
-## diagramas de fkujo: 
-representación gráfica de un algoritmo o de los pasos de un proceso. herramienta de planificación para visualizar la logica de un programa antes de escribir una solo linea de codigo,. se usan componentes Estandar.
+## diagramas de flujo: 
+representación gráfica de un algoritmo o de los pasos de un proceso. Se utiliza como herramienta de planificación para visualizar la logica de un 
+programa antes de escribir una solo linea de codigo. se usan componentes Estandar (Simbología), para que cualquier programador pueda entenderlo.
+  
 ej: la lampara no funciona, esta enchufada?, esta quemada la ampolleta?; comprar una lampara. 
 
 
 ## lenguaje de programación
 
-existen entre 700 y 900 lenguajes de programación.
-los mas usados son Python, java, c#, javascript,typescript,PHP,ruby,C,rust, entre otros. 
+existen entre 700 y 900 lenguajes de programación, utilizados actualmente en la industria, la academia y el desarrollo de software profesional.
+los más usados son Python, java, c#, javascript,typescript,PHP,ruby,C,rust, entre otros. 
+  
 
 ## P5.js
-usa libreria de Javascript, pero mas simplificada, para poder manejarla de una manera mas sencilla.
+usa libreria y lenguaje de Javascript, usando ls potencia y la sintaxis, pero te regala un vocabulario especializado para dibujar, animar y crear
+cosas visuales, pero mas simplificada, para poder manejarlo de una manera mas sencilla.
 
-  ## funciones maestras.
 
-setup: ejecuta una sola vez al principio( para crear lienzo), su proposito es configurar el entorno inicial
+## funciones maestras.
 
-draw: se ejecuta uin bucle infinito, es lo que permite crear animaciones, se puede modificar y su prioposito es crear movimiento
+**setup()**: Ejecuta una sola vez al principio ( para crear lienzo), su proposito es configurar el entorno inicial, definiendo el tamaño de archivo,
+cargas imágenes o ssonidos y estableces configuraciónes que no cambiarán (como color de fondo inicial).
+
+**draw()**: se ejecuta un bucle infinito (normalmente 60 veces por segundo), es lo que permite crear animaciones, se puede modificar y su proposito 
+es crear movimiento o interacción en tiempo real, dibujando formas que cambian de posición, detectando donde esta el ratón o cambiando su color gradualmente.
+  
 
 # create canvas.
-  linea de codigo para cxrear el crear el fondo: createCanvas(
+  linea de codigo para crear el crear el fondo: createCanvas([width],[height],[renderer],[canvas]);
 
-Render: confirgura el programa en modo dos d, imagenes basicas, planas
-  WEBGL: ativa modelo 3D, utiliza pieza grafica GPU
-    canvas,: para programas sitios web
+**Render**: define el motor de renderizado, P2D(Default): confirgura el programa en modo 2D, imagenes basicas, planas.
   
-*comando ++ es para acercar la visualizacion de la pantalla 
+**WEBGL**: ativa modelo 3D, utiliza pieza grafica (GPU), que es indispensable para usar funciones como **box(), sphere(),luces o texturas complejas**.
+  
+**canvas**: parametro oculto y menos utilizado, pero util para desarrollar programas sitios web.
+  
+  
+  
+! comando ++ es para acercar la visualizacion de la pantalla 
+
 
 # background
 debtro de su parentesis se cambia el color.
-sintaxis: background(v1, v2, v3, 
+sintaxis: **background(v1, v2, v3, [a]);**
+
+no sirve para designar color al lienzo , se puede poner en el setup(); o en el draw(), pero tiene resultados diferentes
+[v1,v2,v3], sobn los valores RGB. se puede obtener los valores RGB de los sitios web, https://colorspicker.net/es/  o  https://htmlcolorcodes.com/ 
 
 
-                    siempre debe estar cerrado por { la informacion que le pida el porgrama 
+! siempre debe estar cerrado por { la informacion que le pida el porgrama 
                                                     
-  programa para sacar codigos de colores: HTML colors codes, colormode(HSL), 
+!programa para sacar codigos de colores: HTML colors codes, colormode(HSL), 
 
-    SI se quiere hacer una estela de colores swe deb poner el color background en estup, pero si se quiere un fondo plano se color se debe dejar en background
-     coordenada x es el ancho, horizontal, y vertical                                                
+ Si se quiere hacer una estela de colores se debe poner el color background en estup, pero si se quiere un fondo plano se color se debe dejar en background
+coordenada x es el ancho, horizontal, y vertical                                                
