@@ -32,20 +32,27 @@ Artistas como: Hiroshi Kawano, Vera Molnár, Georg Nees, entre otros, llamados p
 **Exposición cybernetic:** *Serendipy* fuera la **primera expo en congregar a distintos artistas de diversas áreas como computación**, tecnologia, etc.
 Organizado por *Jorge Glusberg*, *Arte cibernetica* apoyó en el campo de las artes, tecnologias e investigaciones convocando a distintos artistas, musicos, etc.
 
-**John y James Withney** Recuperaron una computadora analoga de la Segunda Guerra Mundial, para odificarla y que los votajes se transformaran en movimientos y luz para pintar sobre celuloide.
-Dato: Hiceron el opening para la pelicula "Vertigo" 1958.
+**John y James Withney** Recuperaron una computadora ánaloga de la Segunda Guerra Mundial, para modificarla y que los voltajes se *transformaran en movimientos y luz para pintar sobre celuloide*.
+***Dato***: Hiceron el opening para la pelicula "Vertigo" 1958.  
 
 **SKETCHPAD:** En 1963 *Iván Sutherland* creó el primer programa donde se puede dibujar en una pantalla y con un lapiz. 
 Se podía dibujar una rueda maestra, crear distintas copias y si se cambia la original las copias cambiaban con ella.
 
 **Douglas Stennbell**: El estaba en un instituto de investigación de Stanford, en donde estableción una conexión entre los electrones que estaban en el computador a una pantalla.
+### DEMOCRATIZACIÓN DEL CREATIVE CODING:
 
-Software libre: 
-Libertad de uso
-Libertad de estudio
-Libertad de distribución
-Libertad de mejora
-
+**Software libre:** Nace de la mano de Richard Stallman en 1983 cuando anunció el proyecto GNU, la idea del proyecto era crear un **sistema operativo libre**.  
+En 1985 se crea el *Manifiesto GNU y se funda la FSF*:  
+    1. *Libertad de uso*  
+    2. *Libertad de estudio*  
+    3. *Libertad de distribución*  
+    4. *Libertad de mejora*  
+Principios adicionales de la FSF:  
+    - *Libertad, no precio*  
+    - *Copyleft* (sus siguiente versiones sigan siendo libres)  
+    - *Lucha contra restricciones*  
+    - *Desarrollo del proyecto GNU* ( fomentar un sistema de desarrollo libre)  
+    
 Open source y Free Software
 
 El modelo abierto se considera tecnicamente sueperior, ideal si queremos tener una pagina.
