@@ -41,7 +41,7 @@ circulo completo y en ese momento lo pude solucionar.
 
 La ultima dificultad prsente fue que una de mis figuras, un ovalo, en p5.js se me posicionó de manera recta, pero la de mi figura original estaba levemente
 ladeada. La solución fue en un comienzo buscar por internet, no encontre resultados de las propuestas entregadas, por ende le consulte a la profesora y 
-presentó una solución. 
+presentó una solución, ña utilización de codificación de **translate y rotate**. 
 
 
 ### Codificación: 
@@ -63,6 +63,8 @@ ficura.
 contorno de la figura, de un punto o linea. En cambio el **NoStroke** se utiliza para eliminar el borde dentro de 
 una figura. 
 
+Además utilice la codificación **push y pop**, para aislar un codigo de el resto. También el uso de **translate** que sirve para dar origen a una posición de
+figura a traves de una coordenada específica y **rotate** que define la inclinación del angulo de una figura. 
 
 Para este proyecto además utulice otras coordenadas geometricas más intuitivas, como el **point, line, rect, ellipse, circle, square y triangle**, donde 
 todas se basan de la coordenada **X** e **Y**. 
