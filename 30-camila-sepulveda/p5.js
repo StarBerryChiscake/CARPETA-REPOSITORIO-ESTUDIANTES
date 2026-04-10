@@ -8,3 +8,6 @@ para que hyaya una estela de la figura cuando se mueve con el mouse, el backgrou
 ##Crear propia variable. 
 
   **let** para declarar variable, para variables dinámicas. Para dar espacio entre palabras, la segunda palabras se comienza con mayúscula para generar un espacio. La variable se pone arriba del todo, arriba del setup.
+
+ ## Javascript Objeects
+sirve para organizar nuestro código de una forma adecuada y ordenada. Es la forma para agrupar muchas variable dentro de una variable. Es una estructura de datos que permite agrupar valores, en vez de variables sueltas
