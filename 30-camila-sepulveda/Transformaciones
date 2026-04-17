@@ -26,3 +26,12 @@ ajusta la escala del sistema de coordenadas actual al factor especifico
 
 scale(x,y);
 scale(2,2);
+
+# logica condicional
+
+expresión booleana: cualquier enunciado o dato o instruccion que al ser evaluado solp uede arrojar dos valores pisble verdsdero (true) o falso(false).
+
+tenemos operandos son datos basicos que se evaluan variables como x o y , mouseX mouseY etc, son constantes literales.
+
+operadores de comparación: permite contraste de dos valores. ==(igusl a), !=(diferente de), <o>(mayor o menor que), <=o>=(mayor o igual/ menor o igual). 
+
