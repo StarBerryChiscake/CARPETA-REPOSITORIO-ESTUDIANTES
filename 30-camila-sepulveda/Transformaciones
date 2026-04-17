@@ -41,3 +41,9 @@ sentencia if, toma una condicion expresada como booleano, y ejecuta una accion d
 
 if(condicion){ejecuta este codigo si es true}. entre las llaves es poner lo que quiere que el progama ponga en el archivo, por ejemplo el fondo rojo y un circulo. 
 
+else if(condicion 2){ejecuta este codigo si es true}.
+
+else{ejecuta este codigo si ambas condicoones son falsas}.
+
+ej: si algun estidante apaga la luz de la sala, la profesora debe bailar.
+
