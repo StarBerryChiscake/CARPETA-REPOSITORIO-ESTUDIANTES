@@ -16,3 +16,5 @@ trasladar el punto de origen
 
 push(); y pop();
 son funciones para que se genere una capsula, es para que los movimientos no interfieran en otras figuras, donde no se desean. 
+
+si un objeto gire al sentido contrario se pone un menos 
