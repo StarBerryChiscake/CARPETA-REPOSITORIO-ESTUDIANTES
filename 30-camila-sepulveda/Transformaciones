@@ -7,3 +7,7 @@ Grado 180= PI
 
 # Rotate(); 
 siempre rotara desde el punto de origen que es (0,0); , se recomienda usar con translate y algunos casos rectMode(CENTER 
+
+
+# Traslate 
+trasladar el punto de origen 
