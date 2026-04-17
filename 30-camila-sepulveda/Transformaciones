@@ -11,3 +11,8 @@ siempre rotara desde el punto de origen que es (0,0); , se recomienda usar con t
 
 # Traslate 
 trasladar el punto de origen 
+
+# guardar y restaurar:
+
+push(); y pop();
+son funciones para que se genere una capsula, es para que los movimientos no interfieran en otras figuras, donde no se desean. 
