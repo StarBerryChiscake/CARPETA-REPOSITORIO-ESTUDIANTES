@@ -87,6 +87,6 @@ Deben crear un Sketch LIBRE, que incluya:
 - Imagen https://p5js.org/es/search/?term=image https://editor.p5js.org/PoliMujica/sketches/nm0fj2seC
 - 2 sentencias condicionales completas (If - else if - else)
 
-ENTREGA: Antes de la clase del viernes 24 de abril.
+ENTREGA: Antes de la clase del viernes 24 de abril. (ENCARGO_04)[https://editor.p5js.org/StarBerryChiscake/sketches/l188b4i9p] 
 -
     
