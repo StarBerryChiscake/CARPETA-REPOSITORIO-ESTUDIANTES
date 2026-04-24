@@ -32,6 +32,13 @@ Funciones que trabajan juntas como un "sistema de memoria temporal" para el esti
 [video transformaciones1](https://youtu.be/o9sgjuh-CBM?si=GyV5YpSujomNga9s)
 [video transformacione2](https://youtu.be/pkHZTWOoTLM?si=ZewYIACFRYHmLx51)
 
+ESCALA 
+scale();
+-
+scale(x,y);
+La función scale() ajusta la escala del sistema de coordenadas actual por el factor especificado. [ejemplo](https://editor.p5js.org/PoliMujica/sketches/Rxcg579Jx) <img width="206" height="206" alt="image" src="https://github.com/user-attachments/assets/2cda1fc7-30ab-4910-9a9e-ef10cc0b1f6a" />
+
+
 CONDICIONALES 🍰
 -
 **LOGICA CONDICIONAL:** (como en probabilidad y estadisticas,slay)
