@@ -87,6 +87,111 @@ Deben crear un Sketch LIBRE, que incluya:
 - Imagen https://p5js.org/es/search/?term=image https://editor.p5js.org/PoliMujica/sketches/nm0fj2seC
 - 2 sentencias condicionales completas (If - else if - else)
 
-ENTREGA: Antes de la clase del viernes 24 de abril. (ENCARGO_04)[https://editor.p5js.org/StarBerryChiscake/sketches/l188b4i9p] 
+ENTREGA: Antes de la clase del viernes 24 de abril. (ENCARGO_04)[https://editor.p5js.org/StarBerryChiscake/sketches/l188b4i9p]
 -
+´´´
+let = angl = 0;
+let speed = 0.1;
+
+function preload() {
+  //para pregargar elementos
+  estrellas = loadImage(`estrellas.png`); //imagenes
+  canica = loadImage(`canica_arcoiris.png`);
+  domo = loadImage(`domo_kun.jpg`);
+  judas = loadImage(`judas.jpg`);
+}
+
+function setup() {
+  createCanvas(500, 500);
+  angleMode(DEGREES);
+  rectMode(CENTER);
+  imageMode(CENTER);
+}
+
+function draw() {
+  background(255, 181, 217);
+
+  //CONDICIONALES
+  //si se presiona el mouse sale la imagen
+  if (mouseIsPressed === true) {
+    image(judas, 250, 250, 500, 500);
+  } //pero si el mouse va a estas cordenadas se pone otra imagen (intente poner judas de lady gaga pero sonaba horrible asi que no pude 😔)
+  else if (mouseX >= 240 && mouseY >= 299) {
+    image(domo, 250, 250, 500, 500);
+  } //y cuando nada de lo anterior suceda avanza con lo siguente
+  else {
+    angl = angl + 1; //angulos para rotar mis fuguras luego
+    speed = speed + 0.2;
+    noStroke();
+
+    //TEXTO
+    fill(251, 252, 202);
+    textSize(14);
+    text(`JAVIERA CORRAL H. 💋`, 330, 470);
+
+    //IMAGEN DE ESTRELLAS
+    push();
+    translate(250, 250);
+    rotate(speed);
+    image(estrellas, 0, 0, 490, 490);
+    pop();
+
+    //CUADRADO NARANJA
+    push();
+    translate(250, 120);
+    rotate(angl);
+    fill(250, 176, 57);
+    square(0, 0, 60);
+    pop();
+
+    textSize(30);
+    text(`💖`, 230, 130);
+
+    //CIRCULO ROSADO E IMAGEN DE CANICA
+    push();
+    translate(360, 190); //cambia punto de origen
+    fill(252, 98, 160);
+    circle(0, 0, 60);
+    rotate(-angl); //rota la figura
+    image(canica, 0, 0, 47, 47); //cargue una imagen
+    pop();
+
+    //TRIANGULO VERDE
+    push();
+    translate(120, 310);
+    rotate(angl + angl);
+    scale(1.2);
+    fill(105, 255, 94);
+    triangle(0, 0, 50, 0, 50, 50);
+    pop();
+
+    //RECTANGULO AMARILLO
+    push();
+    translate(100, 180);
+    rotate(angl);
+    scale(1.1);
+    fill(247, 250, 77);
+    rect(0, 0, 70, 40);
+    pop();
+
+    //CUADRADO AZUL
+    push();
+    translate(250, 370);
+    rotate(angl + angl + angl);
+    fill(94, 209, 255);
+    square(0, 0, 56);
+    pop();
+
+    textSize(30);
+    text(`🍰`, 230, 380);
+
+    //rectangulo morado
+    push();
+    translate(360, 290);
+    rotate(angl);
+    fill(236, 94, 255);
+    rect(0, 0, 70, 40);
+  }
+}
+´´´
     
